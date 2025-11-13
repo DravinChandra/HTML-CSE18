@@ -35,7 +35,7 @@ padding: 0px;
     background-color: hsl(209, 95%, 70%);
 } 
     */
-    html{
+    /* html{
         margin: 0;
         padding: 0;
 
@@ -49,9 +49,21 @@ body{
     background-repeat: no repeat;
     background-position: top right;
     background-size:cover ; */
-    background-image: url('hi.jpg') repeat;
+    /* background-image: url('hi.jpg') repeat;
     background-image: url('river.jpg') ;
  }   
  h1{
     color: blue;
  }
+  */ 
+  img{
+    border: 2px solid black;
+    float: left;
+  }
+  p{
+    color: blue;
+    display: inline-block;
+  }
+  #para{
+    color: red;
+  }

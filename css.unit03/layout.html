@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+    <style>
+        main{
+            width: 900px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: lightblue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-evenly;
+            align-content: last baseline;
+            /* align-items: last baseline; */
+           align-items: flex-end;  
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: coral;
+            
+        }
+        section{
+            width: 900px;
+            height: 500px;
+            background-color: aqua;
+            margin: 10px  auto;
+            display: flex;
+        }
+        #left{
+            background-color: blueviolet;
+            
+            flex-grow: 1;
+            
+
+        }
+        #right{
+            background-color: brown;
+            flex-grow: 2;
+            
+        }
+    </style>
+    
+
+
+</head>
+<body>
+    <!-- /* <main> */
+        /* <img src="hi.jpg" alt="tescher" height="150px" >
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Nesciunt soluta saepe perspiciatis vero provident architecto repellendus quod ut obcaecati nulla.
+        </p id = "para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit <br>atque porro, animi obcaecati praesentium molestiae, reiciendis itaque laborum aspernatur cumque quam deleniti ipsum.</p>
+    </main> */ -->
+    <main >
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+
+    </main>
+    <section>
+        <div id ="left">left</div>
+        <div id="right"> right</div>
+    </section>
+</body>
+</html>
