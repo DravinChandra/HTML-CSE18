@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout3
+    </title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box solid black;
+        }
+        main{
+            background-color: beige;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            width: 1200px;
+            height: auto;
+            gap: 22px;
+
+        }
+        nav,section,article,footer{
+            background-color: #ccc;
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+            
+            
+            
+        }
+        nav{
+            margin-top: 10px;
+        }
+        section{
+            height: 150px;
+            display: flex;
+            background-color:beige;
+            gap: 80px;
+            flex-direction: row;
+        }
+        .box{
+            flex-grow: 1;
+            background-color:#ccc;
+            height: 140px;
+            
+            
+        }
+        .box1{
+            flex-grow: 1;
+            background-color: #ccc;
+            height: 180px;
+        }
+        .v{
+            background-color: #ccc;
+            flex-grow: 1;
+            
+        }
+        footer{
+            height: 50px;
+            line-height: 50px;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <nav><h2>Navigation</h2></nav>
+        <section><div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div></section>
+        <section><div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div></section>
+        <section><div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div></section>
+        <section><div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div></section>
+        <section><div class="v">Box1</div>
+        <div class="v">Box2</div>
+        <div class="v">Box3</div></section>
+
+
+        <footer>footer</footer>
+
+    </main>
+</body>
+</html>
