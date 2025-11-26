@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box solid black;
+
+        }
+        main{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+
+        }
+        article,nav,header,section,footer{
+            text-align: center;
+            background-color: #ccc;
+            height: 100px;
+            line-height: 100px;       
+         }
+         nav{
+            height: 70px;
+            line-height: 70px;
+         }
+         article{
+            text-align: left;
+            
+         }
+         header{
+            height: 200px;
+            line-height: 200px;
+
+         }
+         section{
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+            background-color:white;
+            height: 300px;
+         }
+         .box{
+            flex-grow: 1;
+            background-color: #ccc;
+            line-height: 300px;
+            
+         }
+         #box1{
+            width: px;
+        
+         }
+
+    </style>
+</head>
+<body>
+    <main>
+        <article><h2>logo</h2></article>
+        <nav><h2>Navigation</h2></nav>
+        <header><h2>Header/Banner  </h2></header>
+        <section><div class="box" id="box1"><h2>Side box</h2></div>
+        <div class="box">Body box</div></section>
+        <footer><h2>Footer </h2></footer>
+    </main>
+    
+</body>
+</html>
